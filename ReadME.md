@@ -64,5 +64,7 @@ tests/
 `generation.py` contains a `get_generation` and
 `pokemon.py` contains a `get_pokemon`
 
+...see [ussage](#usage)
+
 # Testing
 * To run all tests, run `make test`
