@@ -1,5 +1,5 @@
 [project]
-name = "speakeasy"
+name = "pokeapi"
 version = "0.1.0"
 description = "Takehome assignment for speakeasy"
 readme = "README.md"

@@ -1,9 +1,8 @@
-from pokeapi.services.pokemon_service import PokemonService
+from pokeapi.generation import get_generation
 
 
 def test_get_pokemon() -> None:
-    service = PokemonService()
-    result = service.get_generation("generation-i")
+    result = get_generation("generation-i")
     assert result is not None
     print(result)
         

@@ -101,3 +101,5 @@ def _to_generation(generation: dict) -> Generation:
         types=generation["types"] if "types" in generation else [],
         version_groups=generation["version_groups"] if "version_groups" in generation else []
     )
+
+pokemon_service = PokemonService()
